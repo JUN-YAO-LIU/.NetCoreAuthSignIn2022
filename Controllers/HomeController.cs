@@ -12,11 +12,12 @@ namespace OAuthSignIn.Controllers
 
         public IActionResult SignInGoogle(string provider, string returnUrl = null)
         {
-            var redirectUrl = Url.Action("Callback", controller: "Home", values: new { returnUrl });
+            var redirectUrl = Url.Action("callback", controller: "home", values: new { returnUrl });
             return new ChallengeResult(provider, new AuthenticationProperties { RedirectUri = redirectUrl ?? "/" });
         }
 
-        public IActionResult Callback(string returnUrl = null, string remoteError = null)
+        [Route("signin-callback")]
+        public IActionResult Callback()
         {
             var claims = HttpContext.User;
             // 略...後續流程可直接參考官方範例，或自訂

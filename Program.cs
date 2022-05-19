@@ -9,9 +9,6 @@ try
     // route 轉小寫
     builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
-    // HttpClient
-    builder.Services.AddHttpClient();
-
     builder.Services.AddMvc();
 
     builder.Services.AddAuthentication(options =>
@@ -19,15 +16,17 @@ try
         options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
         options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
         options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    });
-
-    builder.Services.AddAuthentication().AddGoogle(googleOptions =>
+    }).AddGoogle(googleOptions =>
     {
         googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
         googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+        //googleOptions.CallbackPath = "/home/callback";
         //googleOptions.ClientId = "{應用程式編號}";
         //googleOptions.ClientSecret = "{應用程式密鑰}";
-    });
+    }).AddCookie(options =>
+    {
+        options.LoginPath = "/Home/Index";
+    }); ;
 
     var app = builder.Build();
 
@@ -35,15 +34,11 @@ try
 
     #region 中介層
 
-    app.UseRequestLocalization();
-
     app.UseRouting();
 
     app.UseHttpsRedirection();
 
-    app.UseAuthentication(
-
-        );
+    app.UseAuthentication();
 
     app.UseAuthorization();
 

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V1\\OAuthSignIn\\OAuthSignIn\\OAuthSignIn.csproj": {}
+    "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V1\\OAuthSignIn\\OAuthSignIn\\OAuthSignIn.csproj": {
+    "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V1\\OAuthSignIn\\OAuthSignIn\\OAuthSignIn.csproj",
+        "projectUniqueName": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
         "projectName": "OAuthSignIn",
-        "projectPath": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V1\\OAuthSignIn\\OAuthSignIn\\OAuthSignIn.csproj",
-        "packagesPath": "C:\\Users\\jim.liu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V1\\OAuthSignIn\\OAuthSignIn\\obj\\",
+        "projectPath": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
+        "packagesPath": "C:\\Users\\momom\\.nuget\\packages\\",
+        "outputPath": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jim.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\momom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
