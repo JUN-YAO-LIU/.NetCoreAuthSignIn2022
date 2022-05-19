@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "s8nwZUh6PYTyjBALWhdXdbwW0vDA3GtQRf8FZS7XZcM=",
+  "Source": "OAuthSignIn",
+  "BasePath": "_content/OAuthSignIn",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

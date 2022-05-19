@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OAuthSignIn/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.5"
+        },
+        "runtime": {
+          "OAuthSignIn.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OAuthSignIn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G28oH6wRuc+/91ch993TJQ0q4opZcVjfK0j+E7IaZs14bvYw0nwHswzZrr//AqqN2vAPlsVqAYRP/6JWzJvrNQ==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.5.nupkg.sha512"
+    }
+  }
+}
