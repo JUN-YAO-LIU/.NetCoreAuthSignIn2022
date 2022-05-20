@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "X9pl3+l0gozC5pIi/CpqwTlcbdAMImT5IV/pgMHbRnxOJNnV9+a2nsqZgXQ7Qexm89HybrLTkl9aBKSfPZCu9g==",
+  "dgSpecHash": "Qp8FLctMePYyPnHy0vzpMgb+qMzS6ci/5l2PJm9NaOquw8wYXVtamQGhWxWWH/6d/Wog2nIp89YtX2/fDXOcaw==",
   "success": true,
-  "projectFilePath": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
+  "projectFilePath": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V2\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\momom\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.5\\microsoft.aspnetcore.authentication.google.6.0.5.nupkg.sha512"
+    "C:\\Users\\jim.liu\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.5\\microsoft.aspnetcore.authentication.facebook.6.0.5.nupkg.sha512",
+    "C:\\Users\\jim.liu\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.5\\microsoft.aspnetcore.authentication.google.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

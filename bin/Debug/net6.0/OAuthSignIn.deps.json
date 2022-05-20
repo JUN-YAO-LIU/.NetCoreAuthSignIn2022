@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "OAuthSignIn/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "6.0.5",
           "Microsoft.AspNetCore.Authentication.Google": "6.0.5"
         },
         "runtime": {
           "OAuthSignIn.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.5": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
@@ -29,6 +38,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bi1CgTKArM6tj8szM6FMj+YHIM2A6P/So2DDIebw/c5dcbBiH2wP20NNqUWeLfNL6Tvoz6R/E/MaRnIK6SiaeA==",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.6.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
       "type": "package",

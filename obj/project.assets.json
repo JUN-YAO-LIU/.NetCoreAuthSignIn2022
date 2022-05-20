@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
         "type": "package",
         "compile": {
@@ -17,6 +29,21 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.5": {
+      "sha512": "bi1CgTKArM6tj8szM6FMj+YHIM2A6P/So2DDIebw/c5dcbBiH2wP20NNqUWeLfNL6Tvoz6R/E/MaRnIK6SiaeA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.6.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Google/6.0.5": {
       "sha512": "G28oH6wRuc+/91ch993TJQ0q4opZcVjfK0j+E7IaZs14bvYw0nwHswzZrr//AqqN2vAPlsVqAYRP/6JWzJvrNQ==",
       "type": "package",
@@ -35,27 +62,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNetCore.Authentication.Facebook >= 6.0.5",
       "Microsoft.AspNetCore.Authentication.Google >= 6.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\momom\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jim.liu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
+      "projectUniqueName": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V2\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
       "projectName": "OAuthSignIn",
-      "projectPath": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
-      "packagesPath": "C:\\Users\\momom\\.nuget\\packages\\",
-      "outputPath": "C:\\JimDream\\2.1測試開發\\C#\\.NetCoreAuthSignIn2022\\obj\\",
+      "projectPath": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V2\\.NetCoreAuthSignIn2022\\OAuthSignIn.csproj",
+      "packagesPath": "C:\\Users\\jim.liu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jim.liu\\Desktop\\NuMiner\\4.practice\\sign-in\\Google\\V2\\.NetCoreAuthSignIn2022\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\momom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jim.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -81,6 +105,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
             "version": "[6.0.5, )"
@@ -104,7 +132,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
